@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background: linear-gradient(to right, #ffffff, #f3efed);  
+    text-align: center;
+}
+.calculator {
+    background-color: #00748b;
+    border-radius: 9px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input, button {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 50px;
+}
+input {
+    width: 321px;
+    font-size: 1rem;
+    margin-bottom: -1px;
+    background-color:#05070e;
+    color:#ffffff;
+}
+button {
+    margin: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: #ffffff;
+    width: 80px;
+    color: #000000;
+}
+@media(max-width:400px){
+    .calculator {
+        background-color: #8b0000;
+        border-radius: 9px;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    input {
+        width: 200px;
+        font-size: 1rem;
+        margin-bottom: -1px;
+        background-color:#05070e;
+        color:#ffffff;
+    }
+    button {
+        margin: 1px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 2rem;
+        background-color: #ffffff;
+        width: 50px;
+        color: #000000;
+    }
+
+    
+}
+
+@media (min-width: 401px)and (max-width:800px){
+    .calculator {
+        background-color: #176825;
+        border-radius: 9px;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    input {
+        width: 200px;
+        font-size: 1rem;
+        margin-bottom: -1px;
+        background-color:#05070e;
+        color:#ffffff;
+    }
+    button {
+        margin: 1px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 2rem;
+        background-color: #ffffff;
+        width: 60px;
+        color: #000000;
+    }
+
+    
+}
